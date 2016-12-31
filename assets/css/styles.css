@@ -63,6 +63,7 @@ th, td
 	text-align: center;
 	border-bottom: 1px solid #ddd;
 }
+
 img
 {
     max-height: 100%;max-width: 100%;height: auto;width: auto;
@@ -80,7 +81,11 @@ Layout styles
 
 .n
 {
-	height:auto;position:fixed;bottom:10%;right: 0px; 
+	position:fixed;bottom:20%;right: 0px; 
+}
+.m
+{
+	position:fixed;bottom:16.5%;right: 0px; 
 }
 
 .a
