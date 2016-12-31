@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
 		<title>想玩嗎? 來讀書吧!</title>		
 		<meta charset="utf-8">
-
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="Description" lang="en" content="ADD SITE DESCRIPTION">
@@ -13,6 +11,11 @@
 		<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" href="assets/css/styles.css">
+		<script type="text/javascript">
+            function removeElement(){
+                document.getElementById("p1").style.display="none";
+            }
+        </script>
 
 	</head>
 	<body>
@@ -73,12 +76,16 @@
                 </table>
 			</div>
 
-			<div class="n">
-			    <p>
-                    <a href="http://www.books.com.tw/exep/activity/2016/12/2016yeartop/P3/type.php?loc=tbanner_001" title="我是煩人的小廣告，你知道我贊助多少嗎?"><img src="images/1.jpg"></a>
+			<div class="m">
+				<input type="button" onclick="removeElement()" value="關閉廣告" />
+			</div>
+            <div class="n">
+
+                <p id="p1">
+                    <a href="http://www.books.com.tw/exep/activity/2016/12/2016yeartop/P3/type.php?loc=tbanner_001" title="我是煩人的小廣告，你知道我贊助多少嗎?"><img class="n" src="images/1.jpg"></a>
                 </p>
-            </div>
-            
+                
+             </div>
 			<div class="footer">
 				&copy; 由OOOO團隊精心製作
 			</div>

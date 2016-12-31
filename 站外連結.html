@@ -11,6 +11,11 @@
 		<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" href="assets/css/styles.css">
+		<script type="text/javascript">
+            function removeElement(){
+                document.getElementById("p1").style.display="none";
+            }
+        </script>
 	</head>
 	<body>
 		<div class="container">
@@ -45,11 +50,16 @@
 				<p><img src="images/5.jpg" title="ID:0123456，來PK"></p>
 				<hr>	
 			</div>
-			<div class="n">
-			    <p>
-                    <a href="http://www.books.com.tw/exep/activity/2016/12/2016yeartop/P3/type.php?loc=tbanner_001" title="我是煩人的小廣告"><img src="images/1.jpg"></a>
+			<div class="m">
+				<input type="button" onclick="removeElement()" value="關閉廣告" />
+			</div>
+            <div class="n">
+
+                <p id="p1">
+                    <a href="http://www.books.com.tw/exep/activity/2016/12/2016yeartop/P3/type.php?loc=tbanner_001" title="我是煩人的小廣告"><img class="n" src="images/1.jpg"></a>
                 </p>
-            </div>
+                
+             </div>
             <div class="footer">
 				&copy; 由OOOO團隊精心製作
 			</div>

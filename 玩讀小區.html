@@ -11,6 +11,12 @@
 		<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" href="assets/css/styles.css">
+
+		<script type="text/javascript">
+            function removeElement(){
+                document.getElementById("p1").style.display="none";
+            }
+        </script>
 	</head>
 	<body>
 		<div class="container">
@@ -39,17 +45,22 @@
                     		<th>英文小天地</th>
                     	</tr>
                     	<tr>
-                    		<th><a href="小遊戲場.html" title="進入小遊戲場"><img src="images/4.jpg" align="left"></a></th>
+                    		<th><a href="小遊戲場.html" title="進入小遊戲劇場"><img src="images/4.jpg" align="left"></a></th>
                     		<th><a href="英文小天地.html" title="進入英文小天地"><img src="images/3.jpg" align="right"></a></th>
                     	</tr>
                     </table>
 
 
 			</div>
+			<div class="m">
+				<input type="button" onclick="removeElement()" value="關閉廣告" />
+			</div>
             <div class="n">
-                <p>
-                    <a href="http://www.books.com.tw/exep/activity/2016/12/2016yeartop/P3/type.php?loc=tbanner_001" title="我是煩人的小廣告"><img src="images/1.jpg"></a>
+
+                <p id="p1">
+                    <a href="http://www.books.com.tw/exep/activity/2016/12/2016yeartop/P3/type.php?loc=tbanner_001" title="我是煩人的小廣告"><img class="n" src="images/1.jpg"></a>
                 </p>
+                
              </div>
 			<div class="footer">
 				&copy; 由OOOO團隊精心製作
